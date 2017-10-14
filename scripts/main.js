@@ -2,8 +2,6 @@ const $studentList = $('.student-list');
 const $students = $('.student-item');
 const $pagination = $('.pagination'); 
 
-
-
 //Create an array of student names and emails
 const $studentNames = $students.find('h3')
 const $studentEmails = $students.find('.email')
@@ -61,7 +59,7 @@ $links.on('click', function () {
 
 /******
 Search bar will find names or emails that match user's input. 
-If there are no matches, an alert will be displayed asking the user to 
+If there are no matches, a message will be displayed asking the user to 
 try searching again. 
 *******/
 
